@@ -1,0 +1,85 @@
+[
+  {
+    "role": "sigo/admin",
+    "resource": "standard",
+    "action": "create",
+    "attributes": [
+      "*"
+    ]
+  },
+  {
+    "role": "sigo/admin",
+    "resource": "standard",
+    "action": "read",
+    "attributes": [
+      "*"
+    ]
+  },
+  {
+    "role": "sigo/admin",
+    "resource": "standard",
+    "action": "update",
+    "attributes": [
+      "*"
+    ]
+  },
+  {
+    "role": "sigo/admin",
+    "resource": "standard",
+    "action": "delete",
+    "attributes": [
+      "*"
+    ]
+  },
+  {
+    "role": "sigo/admin",
+    "resource": "standard",
+    "action": "create",
+    "attributes": [
+      "*"
+    ]
+  },
+  {
+    "role": "sigo/admin",
+    "resource": "standard",
+    "action": "read",
+    "attributes": [
+      "*"
+    ]
+  },
+  {
+    "role": "sigo/admin",
+    "resource": "standard",
+    "action": "update",
+    "attributes": [
+      "*"
+    ]
+  },
+  {
+    "role": "sigo/admin",
+    "resource": "standard",
+    "action": "synchronize",
+    "attributes": [
+      "*"
+    ]
+  },
+  {
+    "role": "sigo/admin",
+    "resource": "consulting",
+    "action": ["*"],
+    "attributes": [
+      "*"
+    ]
+  },
+  {
+    "role": "sigo/user",
+    "resource": "standard",
+    "action": [
+      "*",
+      "!delete"
+    ],
+    "attributes": [
+      "*"
+    ]
+  }
+]

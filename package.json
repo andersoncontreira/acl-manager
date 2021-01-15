@@ -1,0 +1,27 @@
+{
+  "name": "tcc-td-acl-manager",
+  "version": "0.0.1",
+  "description": "Micro serviço em lambda para ACL do sistema SIGO que faz parte do meu TCC do curso Especialização em Arquitetura de Software Distribuído da PUC Minas",
+  "author": "anderson.contreira@gmail.com",
+  "license": "MIT",
+  "main": "handler.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "server": "node server.js",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.828.0",
+    "aws-serverless-express": "^3.4.0",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "md5": "^2.3.0",
+    "role-acl": "^4.5.4",
+    "slugify": "^1.4.6",
+    "uuid": "^8.3.2"
+  }
+}

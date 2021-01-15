@@ -1,0 +1,5 @@
+curl -X GET \
+  http://localhost:3000/tcc-td-acl-manager/v1/role/sigo/admin \
+  -H 'cache-control: no-cache' \
+  -H 'content-type: application/json' \
+  -H 'postman-token: d0ff6d13-a084-a898-8e8b-ec8d11c005de'

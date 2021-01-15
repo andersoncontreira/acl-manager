@@ -1,0 +1,35 @@
+{
+  "uuid": {
+    "S": null
+  },
+  "system": {
+    "S": null
+  },
+  "role": {
+    "S": null
+  },
+  "resource": {
+    "S": null
+  },
+  "action": {
+    "S": null
+  },
+  "attributes": {
+    "S": null
+  },
+  "active": {
+    "N": "1"
+  },
+  "deleted": {
+    "N": "0"
+  },
+  "createdAt": {
+    "S": "new Date().toISOString()"
+  },
+  "updatedAt": {
+    "S": null
+  },
+  "deletedAt": {
+    "S": null
+  }
+}
